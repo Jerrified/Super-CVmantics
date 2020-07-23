@@ -1,0 +1,88 @@
+html { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(Lines.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.img1 {
+    vertical-align: middle;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: rgb(148, 145, 136);
+    border-style: dotted;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+  /* Control the left side */
+.left {
+    left: 0;
+}
+  
+  /* Control the right side */
+.right {
+    right: 0;
+}
+
+.container1 {
+    margin-left: 2%;
+    border: black;
+    border-style: double;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    height: 200px;
+}
+
+.text2 {
+    display: inline; 
+    margin-left: 2%;
+    border: black;
+    border-style: groove;
+}
+
+.icon {
+    height: 12px;
+    width: 12px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    margin-top: 2%;
+}
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+}
