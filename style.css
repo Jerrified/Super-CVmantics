@@ -22,7 +22,6 @@ span {
     margin-left: 2%;
 }
 
-/* Split the screen in half */
 .split {
     height: 100%;
     width: 50%;
@@ -33,12 +32,10 @@ span {
     padding-top: 20px;
 }
   
-  /* Control the left side */
 .left {
     left: 0;
 }
   
-  /* Control the right side */
 .right {
     right: 0;
 }

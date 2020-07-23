@@ -1,0 +1,90 @@
+html {
+    background-image: url(d&n.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img1 {
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.container1 {
+    margin-left: 2%;
+    border: black;
+    border-style: dotted;
+    margin-top: 2%;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.left {
+    left: 0;
+}
+  
+.right {
+    right: 0;
+}
+
+.text1 {
+    font-size: 20px;
+    height: 200px;
+    margin-left: 2%;
+}
+
+.icon {
+    height: 12px;
+    width: 12px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    margin-top: 2%;
+}
+
+.text2 {
+    display: inline; 
+    margin-left: 2%;
+    border: black;
+    border-style: groove;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
