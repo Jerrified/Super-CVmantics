@@ -46,12 +46,6 @@ span {
     border-style: double;
 }
 
-.text1 {
-    font-size: 20px;
-    font-weight: bold;
-    height: 200px;
-}
-
 .text2 {
     display: inline; 
     margin-left: 2%;
@@ -82,4 +76,53 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+.input1 {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: none;
+}
+
+.input2 {
+    font-size: 15px;
+    height: 250px;
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: black;
+    border-style: double;
+}
+
+.input3 {
+    border: none;
+    width: 100px;
+}
+
+button {
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 2%;
+    float: right;
+}
+
+button:hover {
+    background-color: #af4c4c;
+    color: white;
+  }
+
+  .title {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin: auto;
 }

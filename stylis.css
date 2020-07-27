@@ -1,11 +1,12 @@
 html {
-    background-image: url(d&n.gif);
+    background-image: url(Trip.gif);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .img1 {
@@ -21,6 +22,13 @@ html {
     border: black;
     border-style: dotted;
     margin-top: 2%;
+    margin-right: 2%;
+}
+
+.container2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 
 .split {
@@ -43,8 +51,9 @@ html {
 
 .text1 {
     font-size: 20px;
-    height: 200px;
+    height: 450px;
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 .icon {
@@ -56,7 +65,6 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    margin-top: 10%;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -75,16 +83,54 @@ table {
     border-style: groove;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
   
-  /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+
+.text3 {
+    font-size: 20px;
+    height: 250px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+p {
+    color: blueviolet;
+}
+
+button {
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 2%;
+    vertical-align: right;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+  }
+
+input {
+    border-radius: 8px;
+}
+
+.input2 {
+    font-size: 15px;
+    height: 250px;
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: black;
+    border-style: double;
+    background: none;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
