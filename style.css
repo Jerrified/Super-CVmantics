@@ -87,8 +87,8 @@ table {
 
 .input2 {
     font-size: 15px;
-    height: 250px;
-    width: 500px;
+    height: 270px;
+    width: 400px;
     margin-left: 2%;
     margin-right: 2%;
     border: black;
@@ -97,7 +97,7 @@ table {
 
 .input3 {
     border: none;
-    width: 100px;
+    width: 150px;
 }
 
 button {
